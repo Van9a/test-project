@@ -1,0 +1,17 @@
+.character-details {
+  padding: 20px;
+}
+
+.character-details__title {
+}
+
+.character-details__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.character-details__image {
+  width: 50%;
+  max-width: 200px;
+  border-radius: 50%;
+}

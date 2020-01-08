@@ -1,0 +1,66 @@
+.training {
+  font-size: 12px;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 265px;
+  height: 100%;
+}
+
+.training__container {
+  border: 2px solid #d4e9f6;
+  padding: 5px;
+  position: relative;
+}
+
+.training__count {
+  position: absolute;
+  right: -8px;
+  top: -10px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  color: #fff;
+  background: #1e7512;
+  background: linear-gradient(0deg, #1e7512 24%, #9eed86 100%);
+}
+
+.training__title {
+  margin: 0;
+  padding: 3px 13px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.training__sales {
+  padding: 0 13px;
+}
+
+.training__sales p {
+  color: #d3d3d3;
+}
+
+.training-plan {
+  border: 1px solid #d1e7f5;
+  border-radius: 2px;
+  padding: 6px 8px 0 9px;
+  margin: 9px 2px 8px 2px;
+}
+
+.training-plan__progress {
+  margin-top: 4px;
+}
+
+.training-plan__container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.training-plan__button {
+  color: #fff;
+  background: #020024;
+  background: linear-gradient(0deg, #020024 0%, #090979 24%, #00d4ff 100%);
+  padding: 5px 18px;
+  border: 1px solid #0d1c5f;
+  margin-right: 8px;
+  border-radius: 3px;
+}
