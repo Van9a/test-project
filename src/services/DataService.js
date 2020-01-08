@@ -1,4 +1,4 @@
-class DataService {
+export default class DataService {
     _apiBase = 'https://rickandmortyapi.com/api';
 
     async getResource(url) {
@@ -11,18 +11,12 @@ class DataService {
         return await res.json();
     }
 
-    getAllCharacters() {
-        const res = this.getResource(`/character/`);
+    async getAllCharacters() {
+        const res = await this.getResource(`/character/`);
         return res.results;
     }
 
-    getCharacter(id) {
-        const res = this.getResource(`/character/${id}`);
-        return res.results;
+    async getCharacter(id) {
+        return await this.getResource(`/character/${id}`);
     }
 }
-
-const data = new DataService();
-data.getAllCharacters().then((body) => {
-    console.log(body);
-});

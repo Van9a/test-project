@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__item {
+  padding: 10px;
+  text-decoration: none;
+  color: #8a2be2;
+  &:hover{
+    opacity: .7;
+    transition: opacity .3s;
+  }
+}

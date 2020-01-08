@@ -1,5 +1,3 @@
-@import "variables";
-
 * {
   margin: 0;
   padding: 0;
@@ -70,16 +68,6 @@ ul, ol {
 
 ul {
   list-style: none;
-  li {
-    &:before {
-      content: "•";
-      color: $color-firm1;
-      display: inline-block;
-      font-size: 1.5em;
-      vertical-align: middle;
-      margin-right: 0.38em;
-    }
-  }
 }
 
 ol {
